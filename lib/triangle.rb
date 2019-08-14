@@ -9,6 +9,7 @@ class Triangle
   def kind 
     if sideA == sideB && sideB == sideC
       :equilateral
+    elsif 
   end
   
     class TriangleError < StandardError
