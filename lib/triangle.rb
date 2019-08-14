@@ -7,7 +7,7 @@ class Triangle
   end
   
   def kind 
-    if sideA <= 0 || sideB <= 0 || sideC <= 0 || 
+    if sideA <= 0 || sideB <= 0 || sideC <= 0 || side
     elsif sideA == sideB && sideB == sideC
       :equilateral
     elsif sideA == sideB || sideB == sideC || sideA == sideC
