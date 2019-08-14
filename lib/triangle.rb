@@ -11,7 +11,8 @@ class Triangle
       :equilateral
     elsif sideA == sideB || sideB == sideC || sideA == sideC
       :isosceles
-    
+    else 
+      :scalene
   end
   
     class TriangleError < StandardError
